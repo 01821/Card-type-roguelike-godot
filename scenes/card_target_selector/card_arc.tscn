@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://com2jujs1s8mm"]
+
+[sub_resource type="Curve" id="Curve_tivto"]
+_data = [Vector2(0, 0.0659341), 0.0, 0.0, 0, 0, Vector2(0.926316, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[node name="CardArc" type="Line2D"]
+width = 4.0
+width_curve = SubResource("Curve_tivto")
